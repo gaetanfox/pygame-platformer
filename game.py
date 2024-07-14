@@ -43,6 +43,7 @@ class Game:
                     if event.key == pygame.K_DOWN:
                         self.movement[1] = False
             pygame.display.update()
+            # 60fps
             self.clock.tick(60)
 
 Game().run()
